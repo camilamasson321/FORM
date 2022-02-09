@@ -16,25 +16,26 @@
         <h1 class="col bg-light p-2">Payment Form Example</h1>
         <p class="col-11 p-2 mx-auto alert alert-danger"> Some fields are missing</p>
 
-        <section class="row-cols-12 d-flex justify-content-around p-1">
-            <label class="col-4">
+        <!-- <section class="row-cols-12 d-flex justify-content-between p-1"> -->
+        <section class="row">
+            <label class="col-5 form-label">
                 <div>Card #</div>
-                <input class="col-12 pl-1" type="text" name="cardnumber" placeholder="XXXXXXXXXXXXXXXXXXXXX"/>
+                <input class="col-12 pl-1 form-control" type="text" name="cardnumber" placeholder="XXXXXXXXXXXXXXXXXXXXX"/>
             </label>
-            <label class="col-2">
+            <label class="col-3 form-label">
                 <div>CVC #</div>
-                <input class="col-12"type="text" name="cvc" placeholder="0000">
+                <input class="col-12 form-control"type="text" name="cvc" placeholder="0000">
             </label>
-            <label class="col-4">
+            <label class="col-4 form-label">
                 <div>Amount</div>
-               <section class="col-12">
+               <section class="col-12 d-flex">
                    <span>$</span>
-                   <input class="col-11 flex-fill" type="text" name="amount" placeholder="Amount">
+                   <input class="col-10 form-control" type="text" name="amount" placeholder="Amount">
             </section> 
             </label>
         </section>
         
-        <section class="row-cols-12 d-flex justify-content-around py-2 px-1">
+        <section class="row-cols-12 d-flex justify-content-between py-2 px-1">
             <label class="col-5">
                 <div>First name</div>
                 <input class="col-12" type="text" name="fname">
